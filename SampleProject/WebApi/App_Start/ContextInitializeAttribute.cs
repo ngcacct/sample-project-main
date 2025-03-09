@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Filters;
-using Raven.Client;
+using RavenDB.Client;
 
 namespace WebApi.App_Start
 {
