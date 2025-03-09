@@ -3,7 +3,7 @@ using System.Linq;
 using BusinessEntities;
 using Common;
 using Data.Indexes;
-using Raven.Client;
+using RavenDB.Client;
 
 namespace Data.Repositories
 {
