@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Net.Http;
 using System.Web.Http;
@@ -24,7 +24,8 @@ namespace WebApi.Controllers
             _updateUserService = updateUserService;
         }
 
-        [Route("{userId:guid}/create")]
+        // [Route("{userId:guid}/create")]
+        [Route("{User}/{userId}/create")]
         [HttpPost]
         public HttpResponseMessage CreateUser(Guid userId, [FromBody] UserModel model)
         {
@@ -32,7 +33,8 @@ namespace WebApi.Controllers
             return Found(new UserData(user));
         }
 
-        [Route("{userId:guid}/update")]
+        //[Route("{userId:guid}/update")]
+        [Route("{User}/{userId}/update")]
         [HttpPost]
         public HttpResponseMessage UpdateUser(Guid userId, [FromBody] UserModel model)
         {
@@ -45,7 +47,8 @@ namespace WebApi.Controllers
             return Found(new UserData(user));
         }
 
-        [Route("{userId:guid}/delete")]
+        //[Route("{userId:guid}/delete")]
+        [Route("{userId}/delete")]
         [HttpDelete]
         public HttpResponseMessage DeleteUser(Guid userId)
         {
@@ -58,7 +61,8 @@ namespace WebApi.Controllers
             return Found();
         }
 
-        [Route("{userId:guid}")]
+        //[Route("{userId:guid}")]
+        [Route("{User}/{userId}")]
         [HttpGet]
         public HttpResponseMessage GetUser(Guid userId)
         {
