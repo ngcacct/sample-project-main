@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
 using BusinessEntities;
 using Common;
-using Raven.Client;
-using Raven.Client.Document;
-using Raven.Client.Indexes;
-using Raven.Imports.Newtonsoft.Json;
+using RavenDB.Client;
+using RavenDB.Client.Document;
+using RavenDB.Client.Indexes;
+using RavenDB.Imports.Newtonsoft.Json;
 using SimpleInjector;
 
 namespace Data
