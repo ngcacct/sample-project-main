@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using BusinessEntities;
-using Raven.Abstractions.Indexing;
-using Raven.Client.Indexes;
+using RavenDB.Abstractions.Indexing;
+using RavenDB.Client.Indexes;
 
 namespace Data.Indexes
 {
