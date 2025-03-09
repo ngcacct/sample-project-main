@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Common.Extensions;
 
@@ -9,7 +9,7 @@ namespace BusinessEntities
         private readonly List<string> _tags = new List<string>();
         private int _age;
         private string _email;
-        private decimal? _monthlySalary;
+        private decimal? _annualSalary;
         private string _name;
         private UserTypes _type = UserTypes.Employee;
 
@@ -31,10 +31,10 @@ namespace BusinessEntities
             private set => _type = value;
         }
 
-        public decimal? MonthlySalary
+        public decimal? AnnualSalary
         {
-            get => _monthlySalary;
-            private set => _monthlySalary = value;
+            get => _annualSalary;
+            private set => _annualSalary = value;
         }
 
         public int Age
@@ -77,9 +77,9 @@ namespace BusinessEntities
             _age = age;
         }
 
-        public void SetMonthlySalary(decimal? monthlySalary)
+        public void SetAnnualSalary(decimal? annualSalary)
         {
-            _monthlySalary = monthlySalary;
+            _annualSalary = annualSalary;
         }
 
         public void SetTags(IEnumerable<string> tags)
