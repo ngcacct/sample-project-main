@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using BusinessEntities;
 using Common;
-using Raven.Abstractions.Data;
-using Raven.Client;
-using Raven.Client.Indexes;
+using RavenDB.Abstractions.Data;
+using RavenDB.Client;
+using RavenDB.Client.Indexes;
 
 namespace Data.Repositories
 {
