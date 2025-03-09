@@ -1,4 +1,4 @@
-﻿using BusinessEntities;
+using BusinessEntities;
 
 namespace WebApi.Models.Users
 {
@@ -9,14 +9,16 @@ namespace WebApi.Models.Users
             Email = user.Email;
             Name = user.Name;
             Type = new EnumData(user.Type);
-            MonthlySalary = user.MonthlySalary;
+            // MonthlySalary = user.MonthlySalary;
+             AnnualSalary = user.AnnualSalarySalary;
             Age = user.Age;
         }
 
         public string Name { get; set; }
         public string Email { get; set; }
         public EnumData Type { get; set; }
-        public decimal? MonthlySalary { get; set; }
+        // public decimal? MonthlySalary { get; set; }
+        public decimal? AnnualSalary { get; set; }
         public int Age { get; set; }
     }
 }
