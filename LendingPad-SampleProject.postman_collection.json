@@ -15,7 +15,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:49834/users/clear",
+							"raw": "http://localhost:49834/users/User/userId/clear",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -23,6 +23,8 @@
 							"port": "49834",
 							"path": [
 								"users",
+								"User",
+								"userId",
 								"clear"
 							]
 						}
@@ -44,7 +46,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:49834/users/1422740e-6426-4c46-8445-3f5274a62424/create",
+							"raw": "http://localhost:49834/users/User/userId/create",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -52,7 +54,8 @@
 							"port": "49834",
 							"path": [
 								"users",
-								"1422740e-6426-4c46-8445-3f5274a62424",
+								"User",
+								"userId",
 								"create"
 							]
 						}
@@ -74,7 +77,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:49834/users/9422740e-6426-4c46-8445-3f5274a62424/create",
+							"raw": "hhttp://localhost:49834/users/User/userId/create",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -82,7 +85,8 @@
 							"port": "49834",
 							"path": [
 								"users",
-								"9422740e-6426-4c46-8445-3f5274a62424",
+								"User",
+								"userId",
 								"create"
 							]
 						}
@@ -104,7 +108,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:49834/users/8722740e-6426-4c46-8445-3f5274a62424/create",
+							"raw": "http://localhost:49834/users/User/userId/create",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -112,7 +116,8 @@
 							"port": "49834",
 							"path": [
 								"users",
-								"8722740e-6426-4c46-8445-3f5274a62424",
+								"User",
+								"userId",
 								"create"
 							]
 						}
@@ -139,7 +144,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:49834/users/1422740e-6426-4c46-8445-3f5274a62424/create",
+							"raw": "http://localhost:49834/users/User/userId/create",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -147,7 +152,8 @@
 							"port": "49834",
 							"path": [
 								"users",
-								"1422740e-6426-4c46-8445-3f5274a62424",
+								"User",
+								"userId",
 								"create"
 							]
 						}
@@ -169,7 +175,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:49834/users/9422740e-6426-4c46-8445-3f5274a62424/update",
+							"raw": "http://localhost:49834/users/User/userId/update",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -177,7 +183,8 @@
 							"port": "49834",
 							"path": [
 								"users",
-								"9422740e-6426-4c46-8445-3f5274a62424",
+								"User",
+								"userId",
 								"update"
 							]
 						}
@@ -199,7 +206,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:49834/users/9422740e-6426-4c46-8445-3f5274a62424/update",
+							"raw": "http://localhost:49834/users/User/userId/update",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -207,7 +214,8 @@
 							"port": "49834",
 							"path": [
 								"users",
-								"9422740e-6426-4c46-8445-3f5274a62424",
+								"User",
+								"userId",
 								"update"
 							]
 						}
@@ -229,7 +237,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:49834/users/9422740e-6426-4c46-8445-3f5274a62424/update",
+							"raw": "http://localhost:49834/users/User/userId/update",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -237,7 +245,8 @@
 							"port": "49834",
 							"path": [
 								"users",
-								"9422740e-6426-4c46-8445-3f5274a62424",
+								"User",
+								"userId",
 								"update"
 							]
 						}
@@ -250,7 +259,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:49834/users/list/tag?tag=C",
+							"raw": "http://localhost:49834/users/User/list/tag?tag=C",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -258,6 +267,7 @@
 							"port": "49834",
 							"path": [
 								"users",
+								"User",
 								"list",
 								"tag"
 							],
